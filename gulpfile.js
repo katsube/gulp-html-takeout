@@ -4,7 +4,7 @@ var concat   = require("gulp-concat");
 
 gulp.task('default',function(){
 	return gulp.src(['sample/*.html'])
-		.pipe(htmlExtract())
+		.pipe(htmlExtract('h1'))
 		.pipe(concat('bundle.html'))		//結合
 		.pipe(gulp.dest('dist/'));
 });
