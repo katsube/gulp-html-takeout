@@ -1,3 +1,6 @@
+## this project
+dist/*.html
+
 ## node
 node_modules/
 
