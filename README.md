@@ -44,10 +44,14 @@ Set CSS Seletor. If not specified, "body" is the default.
    // == "body"
    .pipe(takeout())
    
-   // etc
+   // HTML element
    .pipe(takeout("html"))
    .pipe(takeout("head"))
    .pipe(takeout("h1"))
+   
+   //Class and ID
+   .pipe(takeout(".foo"))
+   .pipe(takeout("#bar"))
 ```
 
 If more than one HTML Element is applicable
