@@ -1,0 +1,15 @@
+{
+  "name": "gulp-html-extract",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katsube/gulp-html-extract.git"
+  },
+  "author": "Makito Katsube",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/katsube/gulp-html-extract/issues"
+  },
+  "homepage": "https://github.com/katsube/gulp-html-extract#readme"
+}
