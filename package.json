@@ -1,7 +1,7 @@
 {
   "name": "gulp-html-extract",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "gulp plugin. Analyze the HTML and retrieve a part of it.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/katsube/gulp-html-extract.git"
