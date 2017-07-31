@@ -11,5 +11,9 @@
   "bugs": {
     "url": "https://github.com/katsube/gulp-html-extract/issues"
   },
-  "homepage": "https://github.com/katsube/gulp-html-extract#readme"
+  "homepage": "https://github.com/katsube/gulp-html-extract#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "jsdom": "^11.1.0"
+  }
 }
