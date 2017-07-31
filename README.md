@@ -45,9 +45,9 @@ option is CSS Seletor. If not specified, "body" is the default.
    .pipe(takeout())
    
    // etc
-	 .pipe(takeout("html")) 
-	 .pipe(takeout("head"))
-	 .pipe(takeout("h1"))
+   .pipe(takeout("html")) 
+   .pipe(takeout("head"))
+   .pipe(takeout("h1"))
 ```
 
 ## License
