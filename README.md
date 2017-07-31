@@ -39,15 +39,34 @@ World
 ## API
 ### takeout(option)
 #### option
-option is CSS Seletor. If not specified, "body" is the default.
+Set CSS Seletor. If not specified, "body" is the default.
 ```javascript
    // == "body"
    .pipe(takeout())
    
    // etc
-   .pipe(takeout("html")) 
+   .pipe(takeout("html"))
    .pipe(takeout("head"))
    .pipe(takeout("h1"))
+```
+
+If more than one HTML Element is applicable
+```javascript
+gulp.task('default',function(){
+	return gulp.src(['sample/*.html'])
+		.pipe(takeout('h1'))
+		.pipe(concat('bundle.html'))
+		.pipe(gulp.dest('dist/'));
+});
+```
+sample/foo.html
+```html
+<h1>Hello</h1>
+<h1>World</h1>
+```
+bundle.html
+```html
+HelloWorld
 ```
 
 ## License
