@@ -1,17 +1,17 @@
 {
-  "name": "gulp-html-extract",
-  "version": "0.0.1",
+  "name": "gulp-html-takeout",
+  "version": "0.0.2",
   "description": "gulp plugin. Analyze the HTML and retrieve a part of it.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/katsube/gulp-html-extract.git"
+    "url": "git+https://github.com/katsube/gulp-html-takeout.git"
   },
   "author": "Makito Katsube",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/katsube/gulp-html-extract/issues"
+    "url": "https://github.com/katsube/gulp-html-takeout/issues"
   },
-  "homepage": "https://github.com/katsube/gulp-html-extract#readme",
+  "homepage": "https://github.com/katsube/gulp-html-takeout#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "jsdom": "^11.1.0"

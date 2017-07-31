@@ -1,1 +1,1 @@
-# gulp-html-extract
+# gulp-html-takeout
