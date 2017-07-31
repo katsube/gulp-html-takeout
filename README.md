@@ -9,7 +9,7 @@ npm install --save-dev gulp-html-takeout
 gulpfile.js
 ```javascript
 var gulp    = require("gulp");
-var takeout = require("./gulp-html-takeout");
+var takeout = require("gulp-html-takeout");
 var concat  = require("gulp-concat");
 
 gulp.task('default',function(){
@@ -30,7 +30,7 @@ sample/world.html
 <h1>World</h1>
 ```
 
-bundle.html
+dist/bundle.html
 ```html
 Hello
 World
@@ -64,7 +64,7 @@ sample/foo.html
 <h1>Hello</h1>
 <h1>World</h1>
 ```
-bundle.html
+dist/bundle.html
 ```html
 HelloWorld
 ```
