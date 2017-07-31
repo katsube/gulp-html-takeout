@@ -1,4 +1,6 @@
 # gulp-html-takeout
+This is the Gulp plugin which extracts only the part specified by CSS selector.
+（CSSセレクターで指定した部分のみを取り出すGulpプラグインです。）
 
 ## install
 ```bash
