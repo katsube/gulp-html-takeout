@@ -12,7 +12,7 @@
     "url": "https://github.com/katsube/gulp-html-takeout/issues"
   },
   "homepage": "https://github.com/katsube/gulp-html-takeout#readme",
-  "Dependencies": {
+  "dependencies": {
     "jsdom": "^11.1.0"
   },
   "devDependencies": {
