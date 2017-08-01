@@ -2,6 +2,7 @@
   "name": "gulp-html-takeout",
   "version": "0.0.5",
   "description": "gulp plugin. Analyze the HTML and retrieve a part of it.",
+  "main": "gulp-html-takeout.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/katsube/gulp-html-takeout.git"
